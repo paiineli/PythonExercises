@@ -1,5 +1,5 @@
 # Square area exercise
-side = float(input("Enter the length of the square: "))
-area = side * side
-
-print(f"The area of the square is: {area}")
+print("Calculate the square's area")
+side = input("What's the square's side length? ")
+area = float(side) ** 2
+print(f"Your square has an area of: {area}")
