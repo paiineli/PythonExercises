@@ -16,6 +16,8 @@ hex
 12 = C
 """
 
+print(30 * "-")
+
 key = input("Enter the base of your password: ")
 
 password = ""
@@ -49,3 +51,6 @@ for letter in key:
     else:
         password = password + letter
 print(f"Your password is: {password}")  # result
+
+print(30 * "-")
+

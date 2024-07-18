@@ -1,6 +1,7 @@
 """
 How to find the factorial of a number
 """
+print(30 * "-")
 
 number = int(input("Enter a number: "))
 
@@ -14,3 +15,6 @@ else:
     for x in range(1, number + 1):
         factorial *= x
     print(f"The factorial of {number} is: {factorial}")
+
+print(30 * "-")
+

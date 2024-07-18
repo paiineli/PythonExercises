@@ -1,5 +1,7 @@
 # 01 - create the variable
 
+print(30 * "-")
+
 age = input("how old are you? ")
 # since it's in "", the value is str
 if int(age) < 16:
@@ -23,3 +25,5 @@ elif int(age) > 13 and int(age) < 18:
     print("youth b")
 else:
     print("you do not belong to the swimming group")
+
+print(30 * "-")

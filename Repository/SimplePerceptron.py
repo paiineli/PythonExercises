@@ -1,6 +1,9 @@
 import numpy as np
 
 # activation function = step function
+
+print(30 * "-")
+
 def step_function(x):
   return 1 if x > 0 else 0
 
@@ -23,3 +26,5 @@ output = perceptron(input_data, weights)
 
 # displays the output
 print("Perceptron output: ", output)
+
+print(30 * "-")

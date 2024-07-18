@@ -1,5 +1,6 @@
 # Temperature converter exercise, C to F, F to C, C to K, K to C, F to K, K to F
 
+print(30 * "-")
 def c_to_f(celsius):
     return celsius * 9/5 + 32
 def f_to_c(farenheit):
@@ -60,3 +61,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+print(30 * "-")

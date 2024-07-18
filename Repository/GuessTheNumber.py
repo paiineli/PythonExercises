@@ -5,6 +5,7 @@ do while
 
 código para adivinhar um número
 """
+print(30 * "-")
 
 palpite = 0
 numero = random.randint(1, 10)  # Gera um número aleatório entre 1 e 10
@@ -17,3 +18,5 @@ while True:  # Executa sem verificar
         break
     else:
         print("Você errou o número :/ tente novamente")
+
+print(30 * "-")

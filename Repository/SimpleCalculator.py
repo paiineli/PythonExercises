@@ -1,4 +1,5 @@
 # Simple calculator exercise
+print(30 * "-")
 
 def add(x, y):
     return x + y
@@ -34,3 +35,5 @@ elif choice == '3':
     print("The multiplication of the two numbers is equal to:", multiply(num1, num2))
 elif choice == '4':
     print("The division of the two numbers is equal to:", divide(num1, num2))
+
+print(30 * "-")
