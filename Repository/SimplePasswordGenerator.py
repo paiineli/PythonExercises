@@ -16,36 +16,36 @@ hex
 12 = C
 """
 
-chave = input("Digite a base da sua senha: ")
+key = input("Enter the base of your password: ")
 
-senha = ""
-for letra in chave:
-    if letra in "Aa":
-        senha = senha + "1"
-    elif letra in "Bb":
-        senha = senha + "2"
-    elif letra in "Cc":
-        senha = senha + "3"
-    elif letra in "Dd":
-        senha = senha + "4"
-    elif letra in "Ee":
-        senha = senha + "5"
-    elif letra in "Ff":
-        senha = senha + "@"
-    elif letra in "Rr":
-        senha = senha + "#"
-    elif letra in "Ss":
-        senha = senha + "%"
-    elif letra in "Oo":
-        senha = senha + "?"
-    elif letra in "Ii":
-        senha = senha + "*"
-    elif letra in "Uu":
-        senha = senha + "!"
-    elif letra in "Mm":
-        senha = senha + "("
-    elif letra in "Nn":
-        senha = senha + ")"
+password = ""
+for letter in key:
+    if letter in "Aa":
+        password = password + "1"
+    elif letter in "Bb":
+        password = password + "2"
+    elif letter in "Cc":
+        password = password + "3"
+    elif letter in "Dd":
+        password = password + "4"
+    elif letter in "Ee":
+        password = password + "5"
+    elif letter in "Ff":
+        password = password + "@"
+    elif letter in "Rr":
+        password = password + "#"
+    elif letter in "Ss":
+        password = password + "%"
+    elif letter in "Oo":
+        password = password + "?"
+    elif letter in "Ii":
+        password = password + "*"
+    elif letter in "Uu":
+        password = password + "!"
+    elif letter in "Mm":
+        password = password + "("
+    elif letter in "Nn":
+        password = password + ")"
     else:
-        senha = senha + letra
-print(f"Sua senha é: {senha}")
+        password = password + letter
+print(f"Your password is: {password}")
