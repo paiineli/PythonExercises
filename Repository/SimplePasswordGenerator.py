@@ -48,4 +48,4 @@ for letter in key:
         password = password + ")"
     else:
         password = password + letter
-print(f"Your password is: {password}")
+print(f"Your password is: {password}")  # result
