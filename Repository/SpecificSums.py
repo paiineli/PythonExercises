@@ -31,5 +31,3 @@ for i in range(15):
 print(f"The result of z is: {z:.2f}")
 
 print(30 * '-')
-
-
